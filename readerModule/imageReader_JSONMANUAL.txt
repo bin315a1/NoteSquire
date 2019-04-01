@@ -1,0 +1,34 @@
+json formatting
+
+"size":{
+	"width":
+	"height":
+}
+
+"blocks": [
+
+	"block": {
+		"block_str": 
+		"left_top_vertex": {
+			"x":
+			"y":
+		}
+		"right_bottom_vertex": {
+			"x":
+			"y":
+		}
+		"paragraph": [
+			{
+				"para_str": 
+				"left_top_vertex": {
+					"x":
+					"y":
+				}
+				"right_bottom_vertex": {
+					"x":
+					"y":
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,2 @@
+# NoteSquire
+Hackathon

@@ -1,0 +1,15 @@
+{
+	image: [
+		{
+			"index":
+			"left_top_v": {
+				"x":
+				"y":
+			}
+			"right_bot_v": {
+				"x":
+				"y":
+			}
+		}
+	]	
+}

@@ -1,0 +1,13 @@
+import imageReader_v02 as ir
+
+def main():
+#    parser = argparse.ArgumentParser()
+#    parser.add_argument("path", type=str)
+#    args = parser.parse_args()
+#    path = args.path
+    path = '../../sample_images/withTag_1.jpg'
+    path_cp = ir.createImageCopy(path)
+    ir.detect_document(path_cp)
+
+main()
+    

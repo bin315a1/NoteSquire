@@ -5,8 +5,11 @@ NoteSquire is a project that aims to make taking class notes to a new level. To 
 
 Roles:
 Han - create python module that takes an image and outputs the detected data in the image, using GCP Vision API
+
 Ben - create a React app that takes in Han's python module's output and create an HTML file (end product)
+
 Gio - frontend implementations and web design
+
 Ash - backend implementations
 
 # Motivation
@@ -35,7 +38,7 @@ Outputted page of digital note:
 <img src="https://user-images.githubusercontent.com/42255588/55292099-5ace0c00-539b-11e9-9e2a-f683b8f7dfe0.png" width="80%" height="80%">
 
 # Try it out
-- Note: implementation for the website/ upload is not finished yet, and you a working GCP API Key for the epython module to work.
+- Note: implementation for the website/ upload is not finished yet, and you a working GCP API Key for the python module to work.
 
 1) Take a picture of the page of notes; make sure the handwriting is clear and spaced out properly,
  and indicate the left-top and bottom-right borders with the specific syntax: <imgB>[index] <imgE>[index]

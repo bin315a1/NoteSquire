@@ -33,3 +33,17 @@ GCP detected text regions: (look closely and there are lines)
 Outputted page of digital note:
 
 <img src="https://user-images.githubusercontent.com/42255588/55292099-5ace0c00-539b-11e9-9e2a-f683b8f7dfe0.png" width="80%" height="80%">
+
+# Try it out
+- Note: implementation for the website/ upload is not finished yet, and you a working GCP API Key for the epython module to work.
+
+1) Take a picture of the page of notes; make sure the handwriting is clear and spaced out properly,
+ and indicate the left-top and bottom-right borders with the specific syntax: <imgB>[index] <imgE>[index]
+  
+2) Place the image file in the directory NoteSquire/JSON_To_React
+
+3) In NoteSquire/JSON_To_React, run npm start
+
+4) With a new terminal in NoteSquire/JSON_To_React, run the command py a_imageReader.py [image file name]
+
+5) The resulting HTML output will be opened in your browser

@@ -3,6 +3,8 @@ A UCLA Hackathon(2019) project by Han Bin Lee, Benjamin Choi, Ashkan Faghihi, an
 
 NoteSquire is a project that aims to make taking class notes to a new level. To store a handwritten page of a note, all you need to do is take a picture of the page and upload it. Characters will be detected and converted into digital text, and diagrams will be cropped and added into the digital note!
 
+*note- the web page implementation is currently incomplete
+
 Roles:
 
 Han - create python module that takes an image and outputs the detected data in the image, using GCP Vision API
